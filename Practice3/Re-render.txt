@@ -1,0 +1,7 @@
+مواردی که باعث re-render میشوند:
+1- زمان مقایسه بین props و state قبلی و فعلی اگر تغییری مشاهده شود کامپوننت re-render میشود.
+2- متد forceUpdate میتواند برنامه رو مجبور به re-render کند.
+3- متد setInterval هم هر ثانیه کامپوننت را re-render کند.
+4- می توان با گوش دادن (listen) به رویداد resize مرورگر در متد componentDidMount و سپس آپدیت کردن طول و عرض اینکار را انجام داد.
+
+منبع: https://rahkarino.com/blog/programming/frontend/reactjs/react-interview-questions/
